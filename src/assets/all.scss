@@ -1,7 +1,12 @@
 @import 'bootstrap/scss/functions';
 @import './variables';
 @import 'bootstrap/scss/bootstrap';
-$primary-bg:green;
-body{
-    background-color: $primary-bg;
-}
+@import './components/navbar';
+@import './components/banner';
+@import './components/sectionCard';
+@import './components/footer';
+@import './base/base';
+@import './components/breadcrumb';
+@import './components/carts';
+@import './components/order';
+@import './components/login'
